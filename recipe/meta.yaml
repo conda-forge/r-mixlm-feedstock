@@ -1,4 +1,4 @@
-{% set version = "1.4.1" %}
+{% set version = "1.4.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/mixlm_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/mixlm/mixlm_{{ version }}.tar.gz
-  sha256: 709332790c7038acfb4a8ec7cf129e637b96ab2e16490b251df436547bcec643
+  sha256: 189e3de090b742b7ece959e5af7963703c372ffcc20e34225cca727c95c06cb7
 
 build:
   number: 0
@@ -44,7 +44,7 @@ test:
 
 about:
   home: https://github.com/khliland/mixlm/
-  license: GPL-2.0-only
+  license: GPL-2.0-or-later
   summary: The main functions perform mixed models analysis by least squares or REML by adding the function r() to formulas of lm() and glm(). A collection of text-book statistics for higher education is also included, e.g. modifications of the functions lm(), glm() and associated summaries from the package 'stats'.
   license_family: GPL2
   license_file:

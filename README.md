@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mixlm-feedsto
 
 Home: https://github.com/khliland/mixlm/
 
-Package license: GPL-2.0-only
+Package license: GPL-2.0-or-later
 
 Summary: The main functions perform mixed models analysis by least squares or REML by adding the function r() to formulas of lm() and glm(). A collection of text-book statistics for higher education is also included, e.g. modifications of the functions lm(), glm() and associated summaries from the package 'stats'.
 
