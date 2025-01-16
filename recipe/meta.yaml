@@ -44,7 +44,7 @@ test:
 
 about:
   home: https://github.com/khliland/mixlm/
-  license: GPL-2.0-only
+  license: GPL-2.0-or-later
   summary: The main functions perform mixed models analysis by least squares or REML by adding the function r() to formulas of lm() and glm(). A collection of text-book statistics for higher education is also included, e.g. modifications of the functions lm(), glm() and associated summaries from the package 'stats'.
   license_family: GPL2
   license_file:
