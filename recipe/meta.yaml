@@ -1,4 +1,4 @@
-{% set version = "1.4.2" %}
+{% set version = "1.4.3" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/mixlm_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/mixlm/mixlm_{{ version }}.tar.gz
-  sha256: 189e3de090b742b7ece959e5af7963703c372ffcc20e34225cca727c95c06cb7
+  sha256: c811fd2db82f03500383fddd1a4092e9a2f341b8a910fc1cffefcfc7cad0362e
 
 build:
   number: 0
